@@ -1,0 +1,176 @@
+@font-face{
+    src: url(./Manrope/Manrope-VariableFont_wght.ttf);
+    font-family: Manrope;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 20px 130px;
+    font-family: Manrope;
+}
+
+.navBar{
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.navBarContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerLogo{
+    display: flex;
+    color: #273F5C;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.miniLogo{
+    font-size: 14px;
+    margin: 0px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.punkts{
+    padding: 0px 15px;
+    border-radius: 7px;
+}
+
+.punkts:hover{
+    background-color: #273F5C;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.contact{
+    border: 1.5px solid #273F5C;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.contact:hover{
+    background-color: #273F5C;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.blockTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 200px 0px 0px;
+}
+
+.allText{
+    display: block;
+}
+
+.pTitle{
+    margin: 10px 0px 20px;
+    color: #273F5C;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.pSubtitle{
+    margin: 0px;
+    font-size: 16px;
+    color: #565656;
+}
+
+.anotherText{
+    margin: 0px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainImg{
+    width: 32%;
+    height: 32%;
+}
+
+.creativeWeaponsBlock{
+    margin: 100px 0px 0px;
+}
+
+.steps{
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #273F5C;
+    border-radius: 11px;
+}
+
+.creativeWeaponsText{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.creativeWeaponsTitle{
+    margin: 0px;
+    color: #273F5C;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.otherText{
+    margin: 10px 0px;
+}
+
+.creativeWeaponImage{
+    width: 100%;
+    height: 100%;
+}
+
+.examples{
+    margin: 100px 0px;
+}
+
+.examplesBlockImage{
+    display: flex;
+}
+
+.examplesImages{
+    width: 95%;
+}
+
+.examplesContent{
+    width: 95%;
+    background-image: url(./image/da.png);
+    display: block;
+}
+
+.examplesImagesTitle{
+    font-size: 24px;
+    color: #273F5C;
+    margin: 0px;
+    font-weight: 600;
+}
